@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero-cont {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 250, 251, 1) 48%,
+    rgba(34, 44, 79, 1) 48%
+  );
+  position: relative;
+}
+.main-cont {
+  padding: 0;
+}
+.head-sec {
+  width: 100%;
+  height: 80vh;
+}
+.bg-white {
+  background-color: #f0fbf7;
+  color: #06bb76;
+}
+.bg-green {
+  background-color: #06bb76;
+  color: white;
+  box-shadow: 0 0 2px #06bb76;
+}
+.cl-green {
+  color: #06bb76;
+  text-shadow: 0 0 2px #06bb76;
+}
+.btn-green {
+  background-color: #06bb76;
+  border-radius: 25px;
+  color: white;
+  transition: 0.3s ease-in-out;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px #06bb76;
+}
+.btn-green:hover {
+  background-color: #06bb76;
+  color: white;
+  transform: scale(1.05) !important;
+}
+.btn-white {
+  background-color: #f0fbf7;
+  color: #06bb76;
+  transition: 0.3s ease-in-out;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px #f6fafb;
+}
+.btn-white:hover {
+  color: #06bb76;
+  transform: scale(1.05) !important;
+}
+.h4-all {
+  color: #222c4f;
+  font-size: 1.2rem;
+}
+.h1-all {
+  color: #222c4f;
+  text-shadow: 0 0 2px #222c4f;
+}
+.p-all {
+  color: #2d3656b8;
+  font-size: 16px;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+.subNav {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  width: 83.5%;
+  left: 0;
+  background: transparent;
+  z-index: 100;
+}
+.navbar-nav {
+  gap: 20px;
+}
+.nav-act {
+  color: white !important;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  text-shadow: 0 0 2px #68686862 !important;
+}
+.nav-act:hover {
+  color: #06bb76 !important;
+  transform: scale(1.1);
+  text-shadow: 0 0 2px white;
+}
+.navbar-brand {
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #222c4f;
+  text-shadow: 0 0 12px rgb(196, 196, 196);
+}
+.nav-open-logo {
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #222c4f;
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+}
+/* Hero Sec */
+.hero-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-col-1 {
+  width: 40%;
+  height: 80vh;
+}
+.hero-col-2 {
+  width: 60%;
+  height: 80vh;
+}
+.hero-col-2 img {
+  width: 430px;
+  filter: brightness(130%);
+}
+.hero-btn {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.hero-p-bi {
+  cursor: pointer;
+}
+.hero-p-bi p:hover {
+  text-shadow: 0 0 2px rgba(129, 129, 129, 0.596);
+}
+
+.btn-span {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50px;
+}
+.btn-span-white {
+  width: 20px;
+  height: 20px;
+  background: #06bb76;
+  border-radius: 50px;
+}
+.hero-bi::before {
+  content: "\f4f2";
+  font-size: 25px;
+  color: #06bb76;
+  margin-left: 8px;
+  margin-top: 5px;
+  transition: 0.3s ease-in;
+  text-shadow: 0 0 2px #06bb76;
+}
+.hero-bi:hover::before {
+  transform: scale(1.2);
+}
+.hero-btn-p {
+  width: 325px;
+}
+
+/* Second sec */
+.catch-social {
+  position: relative;
+}
+.linked .bi {
+  color: #0a63bc;
+}
+.face .bi {
+  color: #0862f7;
+}
+.pint .bi {
+  color: #c42026;
+}
+.mes .bi {
+  color: rgba(226, 77, 136, 1);
+}
+.meta .bi {
+  color: #0261cc;
+}
+.bi-linkedin::before {
+  font-size: 30px;
+}
+.bi-facebook::before {
+  font-size: 30px;
+}
+.bi-pinterest::before {
+  font-size: 30px;
+}
+.bi-messenger::before {
+  font-size: 30px;
+}
+.bi-meta::before {
+  font-size: 30px;
+}
+.sec-hed {
+  font-size: 16px;
+  font-weight: 700;
+}
+.social-cont {
+  position: absolute;
+  bottom: 80px;
+}
+.social-main {
+  width: 75%;
+  min-height: 90px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 3px 1px #f6fafb;
+
+  background-color: white;
+  z-index: 20;
+}
+#social-col {
+  margin: auto;
+}
+.about-img img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 8px solid #f6fafb;
+  border-radius: 40px 0px 40px 40px;
+}
+.about {
+  height: 100vh;
+}
+.about-btn {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+}
+.about-text-btn {
+  width: 40%;
+}
+.about-img {
+  width: 50%;
+}
+/* our services */
+.service-head {
+  color: #4d5660;
+}
+.service-btn {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+}
+.btn-grey {
+  background-color: #e9ebec;
+  color: #4d5660;
+  transition: 0.3s ease-in-out;
+  padding: 10px 20px;
+}
+.btn-grey:hover {
+  color: #4d5660;
+  background-color: #e9ebec;
+  transform: scale(1.05) !important;
+}
+.btn-span-grey {
+  width: 20px;
+  height: 20px;
+  background: #4d5660;
+  border-radius: 50px;
+}
+.sup-services {
+  background-color: #f8f9fb;
+  padding: 20px;
+}
+.services {
+  min-height: 100vh;
+  height: auto;
+}
+.services-text-btn {
+  width: 38%;
+}
+.about-cards {
+  width: 50%;
+}
+.card-btn-span {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50px;
+}
+.service-card-btn {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  color: white;
+  background-color: #4d5660;
+}
+.service-card-btn:hover {
+  color: white;
+  background-color: #06ac6e;
+}
+.bi-braces::before {
+  content: "\f1c9";
+  color: #06bb76;
+  font-size: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.bi-airplane-fill::before {
+  color: #06bb76;
+  font-size: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.bi-tablet-landscape::before {
+  color: #06bb76;
+  font-size: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.bi-brush::before {
+  color: #06bb76;
+  font-size: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.cards-row {
+  width: 250px;
+  height: 700px;
+  margin-top: 10px;
+}
+.cardi {
+  width: 226px;
+  margin: 10px;
+  box-shadow: 0 5px 4px 3px rgba(212, 212, 212, 0.568);
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4d5660;
+}
+.cardi:hover .serv-icon::before {
+  color: white;
+}
+.cardi:hover {
+  background-color: #06ac6e;
+  color: white;
+}
+.cardi:hover .service-card-btn {
+  background-color: #089662;
+  color: white;
+}
